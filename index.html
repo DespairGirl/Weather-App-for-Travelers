@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/c779351ebb.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="dashboard">
+        <h1>Weather Dashboard</h1>
+
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <h2>Search For a City:</h2>
+                <input type="text" class="userInput" id="cityInput">
+                <button class="srchBtn" type="submit" id="searchBtn"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="srchHistory">
+                <ul class="history" id="listHistory"></ul>
+            </div>
+        </div>
+
+        <div class="col-8">
+            <div class="card">
+                <div class="card-body">
+                    <div class="cityHeader" id="cityDate">
+                        <span id="cityName"></span>
+                        <span id="currentIcon"></span>
+                    </div>
+                    <p class="card-text" id="temp"></p>
+                    <p class="card-text" id="humid"></p>
+                    <p class="card-text" id="windSpeed"></p>
+                    <p class="card-text" id="uvIndex"></p>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-9">
+                <h3>5-Day Forecast</h3>
+            </div>
+        </div>
+
+
+
+
+
+
+</body>
+
+</html>
